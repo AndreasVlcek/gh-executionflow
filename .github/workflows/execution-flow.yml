@@ -44,7 +44,7 @@ jobs:
   build:
     needs: test
     runs-on: ubuntu-latest
-    steps:clear
+    steps:
       - name: Get code
         uses: actions/checkout@v3
       - name: Cache dependencies
